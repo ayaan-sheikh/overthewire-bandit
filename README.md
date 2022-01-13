@@ -12,8 +12,10 @@ connect to bandit.labs.overthewire.org, on port 2220 using given credentials ie;
 
 ![image](https://user-images.githubusercontent.com/94873357/149354659-7e5088cd-fa5c-4d33-a110-f00b4374b145.png)
 
-**ssh bandit0@bandit.labs.overthewire.org -p 2220**
-Now that we are connected, look for next clue given in the website. As highlighted the password for next level is store under a file called readme. lets list the files using ls -alps command (use the man page to understand more about the options)
+**ssh bandit0@bandit.labs.overthewire.org -p 2220 **
+
+Now that we are connected, look for the next clue given on the website. As highlighted the password for the next level is stored under a file called readme. Let’s list the files using ls command (use the man page to understand more about the options)
+
 
 **ls -alps**
 
