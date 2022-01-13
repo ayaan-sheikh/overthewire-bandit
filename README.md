@@ -1,12 +1,14 @@
 # Overthewire-bandit
-Bandit - overthewire is a great CTF game in order to learn the basics. This writeup is for the challenges of all levels.
 ![image](https://user-images.githubusercontent.com/94873357/149216623-26ed1eb1-5103-4ec6-8c1d-b24d20e7cb48.png)
+Bandit - overthewire is a great CTF game in order to learn the basics. This writeup is for the challenges of all levels.
 
-Level 0 
+**Level 0** 
 ![image](https://user-images.githubusercontent.com/94873357/149216707-f567fde2-b331-4f3d-a2ec-95e9e6340c3e.png)
 connect to bandit.labs.overthewire.org, on port 2220 using given credentials ie; username - bandit0 and password - bandit0
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+**ssh bandit0@bandit.labs.overthewire.org -p 2220**
 ![image](https://user-images.githubusercontent.com/94873357/149354659-7e5088cd-fa5c-4d33-a110-f00b4374b145.png)
+
 
 Level 1
 ![image](https://user-images.githubusercontent.com/94873357/149216742-bd994f58-4b3b-47f0-8fb0-c15ac6df78b2.png)
