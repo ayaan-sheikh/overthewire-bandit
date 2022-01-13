@@ -1,17 +1,36 @@
 # Overthewire-bandit
 ![image](https://user-images.githubusercontent.com/94873357/149216623-26ed1eb1-5103-4ec6-8c1d-b24d20e7cb48.png)
-Bandit - overthewire is a great CTF game in order to learn the basics. This writeup is for the challenges of all levels.
+Bandit - overthewire is a great CTF game in order to learn the basics. This writeup will contain ways in which I have tackled all levels.
+The link for the ctf can be found here - https://overthewire.org/wargames/bandit/
 
-**Level 0** 
+
+**Level 0:**
+
 ![image](https://user-images.githubusercontent.com/94873357/149216707-f567fde2-b331-4f3d-a2ec-95e9e6340c3e.png)
+
 connect to bandit.labs.overthewire.org, on port 2220 using given credentials ie; username - bandit0 and password - bandit0
 
-**ssh bandit0@bandit.labs.overthewire.org -p 2220**
 ![image](https://user-images.githubusercontent.com/94873357/149354659-7e5088cd-fa5c-4d33-a110-f00b4374b145.png)
 
+**ssh bandit0@bandit.labs.overthewire.org -p 2220**
+Now that we are connected, look for next clue given in the website. As highlighted the password for next level is store under a file called readme. lets list the files using ls -alps command (use the man page to understand more about the options)
 
-Level 1
+**ls -alps**
+
+![image](https://user-images.githubusercontent.com/94873357/149356411-4ffad94c-7371-4d67-8f52-44078aaa3050.png)
+
+**cat readme**
+
+![image](https://user-images.githubusercontent.com/94873357/149356538-37b1395f-3d8d-42ec-a34e-8cd737e3e737.png)
+
+We got the password for next level.
+
+
+
+**Level 1:**
+
 ![image](https://user-images.githubusercontent.com/94873357/149216742-bd994f58-4b3b-47f0-8fb0-c15ac6df78b2.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/94873357/149216767-27fee159-605e-4bb1-a1f5-7e1dccb8035b.png)
